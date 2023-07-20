@@ -155,10 +155,10 @@ class Home extends StatelessWidget {
             isCollapsed: false,
             isDense: true,
             contentPadding: EdgeInsets.only(
-              left: 10,
+              left: 20,
               top: 10,
               bottom: 5,
-              right: 10,
+              right: 20,
             ),
             border: InputBorder.none,
             focusedBorder: OutlineInputBorder(
