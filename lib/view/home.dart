@@ -138,7 +138,8 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: bgDarkColor,
         //shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        automaticallyImplyLeading: true,
+        leading: BackButton(color: Colors.white,),
+
         title: TextField(
           //cursorHeight: 20,
           autocorrect: false,
