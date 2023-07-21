@@ -141,11 +141,10 @@ class Home extends StatelessWidget {
         leading: BackButton(color: Colors.white,),
 
         title: TextField(
-          //cursorHeight: 20,
           autocorrect: false,
           enableSuggestions: false,
           cursorColor: whiteColor,
-          style: TextStyle(color: whiteColor, decoration: TextDecoration.none),
+          style: TextStyle(fontSize: 15, color: whiteColor, decoration: TextDecoration.none),
           autofocus: true,
           decoration: InputDecoration(
             filled: true,
@@ -167,10 +166,17 @@ class Home extends StatelessWidget {
             ),
             enabledBorder: OutlineInputBorder(
               borderSide: const BorderSide(width: 3),
-              //borderRadius: BorderRadius.circular(12)),
+              borderRadius: BorderRadius.circular(50),
             ),
+            /*disabledBorder: OutlineInputBorder(
+              borderSide: const BorderSide(width: 3),
+              borderRadius: BorderRadius.circular(12),
+            ),*/
           ),
         ),
+      ),
+      body: Container(
+        color: bgColor,
       ),
     );
   }
